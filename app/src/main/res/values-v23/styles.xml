@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!-- Base application theme. -->
@@ -9,10 +10,12 @@
         <item name="android:textColorSecondary">@color/accent</item>
         <item name="android:icon">@color/accent</item>
         <item name="android:windowBackground">@color/secondaryDarkColor</item>
+        <item name="android:colorBackgroundFloating">@color/secondaryLightColor</item>
         <item name="cardBackgroundColor">@color/secondaryDarkColor</item>
 
         <item name="android:divider">@color/primaryColor</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">@android:color/background_dark</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -23,4 +26,5 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
